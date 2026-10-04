@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Open Graph (OG) Tags untuk Preview WhatsApp -->
+    <meta property="og:title" content="Surat Pemberitahuan Resmi - Beasiswa PTK">
+    <meta property="og:description" content="Informasi penting mengenai pengumuman dan penyaluran beasiswa anak PTK.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/zukhruffarizi-tech/Beasiswa-PTK/main/preview.jpeg">
+    <meta property="og:url" content="https://zukhruffarizi-tech.github.io/Beasiswa-PTK/surat.html">
+    <meta property="og:type" content="article">
+
+    <title>Surat Pemberitahuan - Beasiswa PTK</title>
+    
+    <!-- Sedikit CSS agar tampilannya menyerupai surat resmi di atas kertas -->
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            color: #000;
+        }
+        .surat-container {
+            max-width: 800px;
+            background: #ffffff;
+            margin: 0 auto;
+            padding: 40px 50px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+        }
+        .kop-surat {
+            text-align: center;
+            border-bottom: 3px double #000;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+        .kop-surat h2, .kop-surat h3, .kop-surat p {
+            margin: 3px 0;
+        }
+        .nomor-surat {
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+        .isi-surat {
+            text-align: justify;
+            line-height: 1.8;
+        }
+        .ttd-section {
+            float: right;
+            text-align: center;
+            margin-top: 40px;
+            width: 250px;
+        }
+        .btn-print {
+            display: block;
+            width: 200px;
+            margin: 20px auto 0 auto;
+            padding: 10px;
+            background-color: #0d6efd;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+        .btn-print:hover {
+            background-color: #0b5ed7;
+        }
+        @media print {
+            body { background: white; padding: 0; }
+            .surat-container { box-shadow: none; padding: 0; }
+            .btn-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="surat-container">
+        <!-- KOP SURAT -->
+        <div class="kop-surat">
+            <h3>PANITIA PENGELOLA BEASISWA ANAK PTK</h3>
+            <h2>SEKOLAH DASAR ISLAM AL-AZHAR</h2>
+            <p style="font-size: 13px;">Jl. Contoh Alamat No. 123, Kota Anda | Email: info@beasiswaptk.com</p>
+        </div>
+
+        <!-- NOMOR & PERIHAL -->
+        <div class="nomor-surat">
+            <table style="width: 100%; font-family: inherit;">
+                <tr>
+                    <td style="width: 10%;">Nomor</td>
+                    <td style="width: 2%;">:</td>
+                    <td style="width: 88%;">045/B-PTK/X/2026</td>
+                </tr>
+                <tr>
+                    <td>Lampiran</td>
+                    <td>:</td>
+                    <td>1 Berkas</td>
+                </tr>
+                <tr>
+                    <td>Perihal</td>
+                    <td>:</td>
+                    <td><b>Pemberitahuan Penyaluran Beasiswa</b></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- ISI SURAT -->
+        <div class="isi-surat">
+            <p>Kepada Yth.<br>
+            Bapak/Ibu Orang Tua/Wali Penerima Beasiswa<br>
+            di Tempat</p>
+
+            <p><i>Assalamu’alaikum Warahmatullahi Wabarakatuh,</i></p>
+
+            <p>Puji syukur senantiasa kita panjatkan kehadirat Allah SWT. Semoga kita semua selalu berada dalam lindungan-Nya. Salawat serta salam semoga tercurah kepada junjungan kita Nabi Muhammad SAW.</p>
+
+            <p>Sehubungan dengan telah rampungnya proses verifikasi data penerima beasiswa periode ini, bersama surat ini kami sampaikan informasi bahwasanya pencairan dan penyaluran dana beasiswa akan segera diproses ke rekening masing-masing penerima mulai tanggal yang telah ditentukan.</p>
+
+            <p>Adapun daftar nama penerima secara lengkap dan transparan dapat dipantau langsung melalui halaman web resmi penضانan kami di <a href="https://zukhruffarizi-tech.github.io/Beasiswa-PTK/" target="_blank">Portal Beasiswa PTK</a>.</p>
+
+            <p>Demikian surat pemberitahuan ini kami sampaikan. Atas perhatian, kerja sama, serta kepercayaan Bapak/Ibu, kami ucapkan terima kasih.</p>
+
+            <p><i>Wassalamu’alaikum Warahmatullahi Wabarakatuh.</i></p>
+        </div>
+
+        <!-- TANDA TANGAN -->
+        <div class="ttd-section">
+            <p>Ketua Panitia,</p>
+            <br><br><br>
+            <p><b>( Nama Pengurus / Ketua )</b><br>NIP. 19800101 200501 1 001</p>
+        </div>
+        <div style="clear: both;"></div>
+
+        <!-- Tombol Cetak (Opsional, hilang otomatis saat diprint) -->
+        <button class="btn-print" onclick="window.print()">🖨️ Cetak / Simpan PDF</button>
+    </div>
+
+</body>
+</html>
